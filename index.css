@@ -1,0 +1,89 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    
+ }
+ header{
+    /*Enter your code here*/
+    height: 45px;
+    background-color: #186CA3;
+    color: azure;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    
+
+ }
+ 
+ p{
+    margin:10px;
+    font-size: 24px;
+ }
+ .container{
+    display:flex;
+    justify-content: flex-start;
+   
+}
+
+.menu-block{
+   
+   /* margin-right:5px; */
+    
+    width:250px;
+   height:100vh;
+    background-color: grey;
+}
+#menu{
+   height:100vh;
+   padding: 5%; 
+   
+  
+}
+
+input{
+  
+   margin:20px;
+   width: 1000px;
+  
+   margin-right: 5px;
+   
+}
+#add-board-btn{
+   background-color: green;
+   color:white;
+  
+   border:1px solid black;
+   padding: 1%;
+   margin:20px;
+   
+}
+.board{
+   margin: 0;
+   padding: 0;
+}
+.add-board-block{
+   display: flex;
+   justify-content: flex-start;
+   height:80px;
+}
+.project-block{
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.project-card{
+   color:white;
+   width:30%;
+   margin: 30px;
+  
+   background-color:grey;
+}
+.task{
+   margin:17px;
+}
+
+  

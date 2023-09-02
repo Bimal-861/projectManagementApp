@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+            <span onclick="toggleMenu()">&#9776;</span>
+            <p>Project Management app</p>
+    </header>
+   <div class="container">
+        <div class="menu-block" >
+            <ul id="menu"></ul>
+        </div>
+        <div class="board-container">
+            <div class="add-board-block">
+                <input type="text" name="" value=" "id="boardNameValue" placeholder="eg. new test board">
+                <button id="add-board-btn" onclick="addBoard(boardNameValue)">Add Board</button>
+            </div>
+                <div id="moreBoard"></div>
+                <div class="board">Board Name <button onclick="remove('projectlList')">ClickTo Remove</button></div>
+               
+                    <div class="project-block" id="projectlList">
+                
+   </div>
+   <script src="./index.js"></script>
+</body>
+</html>
